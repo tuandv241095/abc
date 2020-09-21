@@ -1,0 +1,11 @@
+server:
+  port: 3000
+
+db:
+  type: 'mongodb'
+  url: 'mongodb://localhost/drug'
+  synchronize: true
+  useUnifiedTopology: true
+
+graphQL:
+  autoSchemaFile: true
